@@ -1,0 +1,42 @@
+
+:lang(sa) {
+    font-family: 'sanskrit 2003', 'siddhanta', serif;
+}
+
+:lang(sa-Latn) {
+    font-family: inherit;
+}
+
+:lang(ur), :lang(ar) {
+    font-family: 'Scheherazade', serif;
+    font-size: x-large;
+}
+
+.fwMargin {
+    position: absolute;
+    right: 0%;
+    font-size: 9pt;
+    line-height: 12pt;
+    width: 15%;
+    text-align: center;
+    color: #AAAAAA;
+    padding-top: 12pt;
+}
+
+.geneaTable {
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: small;
+    text-align: center;
+    /*
+    border: 1px dotted green;
+    width: 100%;
+    */
+}
+
+.geneaTable td {
+    /*
+    border: 1px dotted blue;
+    background-color: yellow;
+    */
+}
